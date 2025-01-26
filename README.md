@@ -1,5 +1,5 @@
 # Cloud.Oracle_Aws-Nginx-Terraform
-Deployment auto d'une portal captif sur Oracle-cloud &amp; Aws avec Nginx (Pour la partie Web) et Terraform (Pour l'automatisation)
+Deployment auto d'une portal captif sur Oracle-cloud &amp; Aws* avec Nginx (Pour la partie Web) et Terraform (Pour l'automatisation)
 
 ##Technologies & Competences
 ### Infrastructure Cloud
@@ -26,7 +26,7 @@ Deployment auto d'une portal captif sur Oracle-cloud &amp; Aws avec Nginx (Pour 
 git clone https://github.com/TatumLn/Cloud.Oracle_Aws-Nginx-Terraform.git
 ```
 2. Configuration Nginx
-# Script d'installation automatique
+ * Installation Nginx
 ```bash
 ./script/nginx-install.sh 
 ```
@@ -34,6 +34,9 @@ ou
 ```bash
 sh /script/nginx-install.sh 
 ```
+ * Deployement
+
+ * Backup
 
 ### Ameliorations Futures
  * Ajout de monitoring
@@ -42,3 +45,4 @@ sh /script/nginx-install.sh
 
 ### Contact
  * Email: zafiniainahermaprosper@gmail.com
+
